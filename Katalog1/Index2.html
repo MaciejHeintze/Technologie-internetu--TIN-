@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="utf-8">
+        <title>Formularz</title>
+</head>
+
+
+<form action="nazwa_edytowanego_pliku.html" method="GET" id="form1">
+
+
+
+        <!-- <input type = "text" name = "nazwapola" />
+    <label for=”nazwapola”>Imię: </label> -->
+        <label for="nazwapola1">Imię: </label>
+        <input name="imie" type="text" id="nazwapola">
+        <br>
+        <br>
+        <br>
+        <label for="nazwa_kontrolki">Lista rozwijana: </label>
+        <select name="nazwa_kontrolki"  id="kontrolka">
+
+                <option selected="selected" value="Wartość wysyłana">Opcja 1</option>
+                <option>Opcja 2</option>
+                <option value="CWKS">Legia</option>
+        </select>
+        <br>
+        <br>
+        <label>Pole tekstowe</label>
+        <textarea name="Pole tekstowe" id="poletxt"></textarea>
+        <br>
+        <br>
+        <label>Pole wielokrotnego wyboru</label>
+        <label>
+                <input type="checkbox" name="nazwa" value="wartość" checked="checked" />Pole1 </label>
+        <label>
+                <input type="checkbox" name="nazwa1" value="wartość" />Pole2 </label>
+        <br>
+        <br>
+        <label>Pole radio</label>
+        <label>
+                <input type="radio" name="nazwa" value="wartość" />Opcja1 </label>
+        <label>
+                <input type="radio" name="nazwa" value="wartość" />Opcja2 </label>
+        <br>
+        <br>
+        <input type="submit" value="Zatwierdz" />
+        
+        <input type="reset" value="Wyczyść" />
+      
+</form>
+
+
+
+</html>

@@ -1,0 +1,82 @@
+body {
+    background-color: grey;
+    }
+    h1{
+        font-family:'Helvetica';
+        font-size: 25px;
+        
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 25px;
+    }
+    h3{
+        font-family: 'Times New Roman', 'Helvetica';
+        font-size: 25px; 
+    }
+    h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+        font-size: 25px;
+    }
+
+    h5{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+    h6{
+        font-family: 'Times New Roman', 'Helvetica';
+        font-size: 25px;
+    }
+    p1 {
+        font-family: 'Arial', Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    p2{
+        font-family: 'Times New Roman';
+        font-size:50px;
+    }
+    p3{
+        font-family: 'Arial';
+        font-size:10px;
+    }
+
+    table{
+      
+      border-collapse: collapse;
+     
+      
+    }th,td{
+        border: 5px solid black;
+        
+        width: 50px
+    }
+        td{
+            height: 50px
+        }
+      
+      th{
+          background-color: blue;
+      }
+
+      img{ 
+          border-top-style: solid 
+        }
+        img{
+            border-bottom-style: solid
+        }
+        img{
+            border-left-style: solid
+        }
+
+        img{
+            border-right-style: solid
+        }
+
+ ul:visited, ul:link, ul:hover
+{
+    list-style-type: circle;
+    text-decoration: none;
+    
+    text-decoration: underline;
+    
+}

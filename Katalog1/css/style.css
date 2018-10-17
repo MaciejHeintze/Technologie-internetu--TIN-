@@ -1,0 +1,23 @@
+
+
+#nazwapola{background-color: brown}
+#kontrolka{background-color: brown}
+#poletxt{background-color:brown}
+#form1{background-color: pink}
+form{border: 1px solid black;
+    position: absolute; left: 800px; 
+}
+
+label {
+    color:blue;
+}
+#nazwapola{border: 1px solid black}
+textarea{
+    border: 1px solid black;
+}
+#kontrolka{border: 1px solid black}
+
+input{
+    border:1px solid black;
+    color: green;
+}
