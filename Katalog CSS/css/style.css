@@ -27,15 +27,18 @@ body {
         font-family: 'Times New Roman', 'Helvetica';
         font-size: 25px;
     }
-    p1 {
+    p#p1 
+    {
         font-family: 'Arial', Tahoma, sans-serif;
         font-size: 15px;
     }
-    p2{
+    p#p2
+    {
         font-family: 'Times New Roman';
         font-size:50px;
     }
-    p3{
+    p#p3
+    {
         font-family: 'Arial';
         font-size:10px;
     }
@@ -57,26 +60,14 @@ body {
       th{
           background-color: blue;
       }
-
-      img{ 
-          border-top-style: solid 
-        }
-        img{
-            border-bottom-style: solid
-        }
-        img{
-            border-left-style: solid
-        }
-
-        img{
-            border-right-style: solid
-        }
-
- ul:visited, ul:link, ul:hover
+img{
+      border:1px solid yellow;
+}
+ul
 {
     list-style-type: circle;
-    text-decoration: none;
-    
+}
+li:hover
+{ 
     text-decoration: underline;
-    
 }
